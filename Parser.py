@@ -47,5 +47,5 @@ def parse_and_save():
 while True:
     parse_and_save()
     # Задержка на два часа (7200 секунд)
-    time.sleep(7200)
+    time.sleep(10)
 
