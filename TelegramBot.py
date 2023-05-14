@@ -4,7 +4,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram import executor
 
 # Создаем экземпляр бота
-bot = Bot(token='Your_Tokken')
+bot = Bot(token='6253951327:AAHecS-_Y3ujGss7nQ6Xzwt2Ft06QbyjJTs')
 # Создаем диспетчер для обработки команд и сообщений
 dispatcher = Dispatcher(bot, storage=MemoryStorage())
 
