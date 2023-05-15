@@ -41,7 +41,7 @@ def parse_and_save():
                     job_data['owner'] = owner
                 data.append(job_data)
 
-        with open('categories.json', 'w', encoding='utf-8') as jsonfile:
+        with open('WithFilter/categories.json', 'w', encoding='utf-8') as jsonfile:
             json.dump(data, jsonfile, ensure_ascii=False, indent=4)
 
         print('Данные успешно сохранены')
