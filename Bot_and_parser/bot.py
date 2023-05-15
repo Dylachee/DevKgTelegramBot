@@ -4,7 +4,7 @@ from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
-bot = Bot('6293863481:AAFTWjUAGFXMne006tGeSGuzlTLAMbhGy_w')  # Укажите свой токен бота
+bot = Bot('YOUR_TOKKEN')  # Укажите свой токен бота
 dp = Dispatcher(bot)
 
 # Чтение данных из JSON-файла
