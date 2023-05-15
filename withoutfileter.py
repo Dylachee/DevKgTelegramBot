@@ -11,7 +11,7 @@ def parse_and_save():
     if response.status_code == 200:
         html = response.text
         soup = BeautifulSoup(html, 'html.parser')
-        category_elements = soup.find_all('div', class_='jobs-item-field position')
+        category_elements = soup.find_all('div', class_='information')
         link_elements = soup.find_all('a', class_='link')
 
         data = []
